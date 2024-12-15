@@ -1,0 +1,42 @@
+=CRASH REPORT==== 15-Dec-2024::09:53:49.177040 ===
+  crasher:
+    initial call: prim_tty:reader/1
+    pid: <0.1410.0>
+    registered_name: user_drv_reader
+    exception error: no case clause matching {error,{read,ebadf}}
+      in function  prim_tty:reader_loop/6 (prim_tty.erl, line 480)
+    ancestors: [user_drv,<0.1407.0>,kernel_sup,<0.1379.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.1408.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 151
+  neighbours:
+
+=CRASH REPORT==== 15-Dec-2024::09:53:49.177040 ===
+  crasher:
+    initial call: prim_tty:reader/1
+    pid: <0.1410.0>
+    registered_name: user_drv_reader
+    exception error: no case clause matching {error,{read,ebadf}}
+      in function  prim_tty:reader_loop/6 (prim_tty.erl, line 480)
+    ancestors: [user_drv,<0.1407.0>,kernel_sup,<0.1379.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.1408.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 151
+  neighbours:
+
+09:53:49.189 [info] Running MinesweeperWeb.Endpoint with cowboy 2.12.0 at :::3000 (http)
+09:53:49.206 [info] Access MinesweeperWeb.Endpoint at http://minesweeper.mjd.archidep.ch:443
+10:05:15.884 [notice] SIGTERM received - shutting down
+

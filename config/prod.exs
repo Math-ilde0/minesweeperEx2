@@ -13,5 +13,6 @@ config :logger, level: :info
 
 config :minesweeper, MinesweeperWeb.Endpoint,
   http: [
+    port: 3000,
     transport_options: [socket_opts: [:inet6]]
   ]
